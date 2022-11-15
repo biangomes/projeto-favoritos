@@ -5,12 +5,10 @@ const fs = require('fs')            // permite trabalhar com arquivos
 
 http.createServer((req, resp) => {
 
-
     const fileHtml = req.url === '/' ? 'index.html' : req.url
     // substitui o path.join(...)
     const filePath = path.join(__dirname, 'public', fileHtml)
-  
-    /*
+    
     //pegando a extensãp do documento
     const extName = path.extname(filePath)
 
@@ -22,7 +20,6 @@ http.createServer((req, resp) => {
     )
 
     if (!allowed) return 
-*/
 
     // definindo rotas para a aplicação
     fs.readFile(

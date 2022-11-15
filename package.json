@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/biangomes/projeto-favoritos/issues"
   },
-  "homepage": "https://github.com/biangomes/projeto-favoritos#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "homepage": "https://github.com/biangomes/projeto-favoritos#readme"
 }
