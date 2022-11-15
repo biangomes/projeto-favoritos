@@ -1,0 +1,24 @@
+{
+  "name": "projeto-favoritos",
+  "version": "1.0.0",
+  "description": "Projeto para praticar pair programming na disciplina de programação back e front end avançadas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biangomes/projeto-favoritos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biangomes/projeto-favoritos/issues"
+  },
+  "homepage": "https://github.com/biangomes/projeto-favoritos#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
